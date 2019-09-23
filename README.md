@@ -1,8 +1,9 @@
 # Credit-Scoring-using-pythonanywhere
 ### **Previous Analysis**
-I made exploratory data analysis and modeling from CreditCustomer dataset, [click here](https://github.com/dlathina/Credit-Scoring) to preview the result.
+I made exploratory data analysis and modeling from CreditCustomer dataset, [click here](https://github.com/dlathina/Credit-Scoring) to preview the result. The best classifier in that analysis is Random Forest Classifier. 
 
-The best classifier in that analysis is Random Forest Classifier. 
+In this repositories, I uploaded the flask_app.py ([open github code](https://github.com/dlathina/Credit-Scoring-using-pythonanywhere/blob/master/flask_app.py) or [open in pythonanywhere](https://www.pythonanywhere.com/user/dwilarasathina/shares/f495f5816f744f1e922e5effe184ed25/))
+and model_randomforest.pkl ([open github code](https://github.com/dlathina/Credit-Scoring-using-pythonanywhere/blob/master/model_randomforest.pkl))files 
 
 ### **VOILAAA !!!**
 Now, you can use it for your company in the easiest way. First of all, Install **postman** to your computer. You can download it [here](https://www.getpostman.com/downloads/). 
@@ -16,6 +17,7 @@ Then, do the following instructions:
 
 In detail, look at the picture below ![Picture](postman.png)
 
+### How About the Data Input? 
 Data you can input in box number (6) is customers data which include 
  - PAY_1 : Non negative, integer number. Payment in the 1st month by customers. 
         0 : Customer doesn't late to pay.
@@ -44,3 +46,12 @@ In the box number (6), please use this template.
 ]
 
 Then, you can see click "Send", and you will get the result like this. ![Picture](result.png)
+From that result, we know classification from each customer. The result should be : 
+
+
+| Customer ID  | PAY_1   | PAY_2   |LIMIT_BAL   |RESULT                              |
+| ------------ |:------: |:-------:|:----------:|-----------------------------------:|
+| 1            | 4       | 2       |200000      |Not Approved, Credit must be stopped|
+| 2            | 0       | 1       |75000       |Approved                            |
+| 3            | 2       | 1       |50000       |Not Approved, Credit must be stopped|
+
