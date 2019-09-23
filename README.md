@@ -22,12 +22,12 @@ Data you can input in box number (6) is customers data which include
  - PAY_1 : Non negative, integer number. Payment in the 1st month by customers. 
         0 : Customer doesn't late to pay.
         1 : Customer late 1 month to pay.
-        2 : Customer late 2 month to pay.
+        2 : Customer late 2 months to pay.
         and so on.
 - PAY_2 : Non negative, integer number. Payment in the 2nd month by customers. 
         0 : Customer doesn't late to pay.
         1 : Customer late 1 month to pay.
-        2 : Customer late 2 month to pay.
+        2 : Customer late 2 months to pay.
         and so on.
 - LIMIT_BAL : Non negative number. Maximum Credit Limit. 
 
