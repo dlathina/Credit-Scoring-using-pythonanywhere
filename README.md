@@ -45,7 +45,7 @@ In the box number (6), please use this template.
 {"PAY_1":2,"PAY_2":1,"LIMIT_BAL":50000}
 ]
 
-Then, you can see click "Send", and you will get the result like this. ![Picture](result.png)
+Then, you can click "Send" button, and you will get the result like this. ![Picture](result.png)
 From that result, we know classification from each customer. The result should be : 
 
 
